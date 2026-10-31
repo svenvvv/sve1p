@@ -1,0 +1,11 @@
+[package]
+name = "e1pas"
+description = "E1P VM module manipulation tool"
+version = "0.9.9"
+edition = "2024"
+
+[dependencies]
+binrw = "0.15.1"
+clap = { version = "4.6.1", features = ["derive"] }
+phf = { version = "0.14.0", features = ["macros"] }
+yore = "1.3.0"
